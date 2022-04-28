@@ -21,6 +21,10 @@ var swiper = new Swiper(".home-slider", {
    },
 });
 
+
+//food-slider platos de comidas con los precios
+
+/*
 var swiper = new Swiper(".food-slider", {
    grabCursor:true,
    loop:true,
@@ -42,7 +46,12 @@ var swiper = new Swiper(".food-slider", {
       },
    },
 });
+*/
 
+
+//ultimo Slider de comidas  our blogs "our latest posts"
+
+/*
 let previewContainer = document.querySelector('.food-preview-container');
 let previewBox = previewContainer.querySelectorAll('.food-preview');
 
@@ -59,6 +68,11 @@ document.querySelectorAll('.food .slide').forEach(food =>{
    };
 });
 
+*/
+
+
+
+/*
 previewContainer.querySelector('#close-preview').onclick = () =>{
    previewContainer.style.display = 'none';
    previewBox.forEach(close =>{
@@ -77,7 +91,12 @@ var swiper = new Swiper(".menu-slider", {
       clickable: true,
    },
 });
+*/
 
+
+ //Our latest post
+
+/*
 var swiper = new Swiper(".blogs-slider", {
    grabCursor:true,
    loop:true,
@@ -100,3 +119,5 @@ var swiper = new Swiper(".blogs-slider", {
       },
    },
 });
+
+*/
