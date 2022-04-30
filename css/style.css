@@ -87,8 +87,11 @@ section{
 }
 
 .header{
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+   padding-top: 1.7rem;
+   padding-bottom: 1rem;
+
+   /* antes los paddings estaba a 2 rem */
+
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -143,7 +146,7 @@ section{
 
 
 .home .slide{
-   min-height: 85vh;
+   min-height: 87vh;
 
    /* cambie el tamaño de home sliders fotos Emi antes hera 100vh */
 
