@@ -761,7 +761,8 @@ section{
 
    .header .navbar a{
       display: block;
-      margin:2rem;
+      margin:5rem;
+      /* antes estaba en 2 rem el espacio entre los enlaces navegacion mobil */
    }
 
    .swiper-button-next,
