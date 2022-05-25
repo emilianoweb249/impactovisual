@@ -185,7 +185,8 @@ section{
 }
 
 .home .slide .content h3{
-   font-size: 8vw;
+   font-size: 6.5vw;
+   /* estaba en 8 lo achique a 6.5 para que entren las palabras completas del slider de los servicios carteleria, diseño grafico, etc... */
    text-transform: uppercase;
    color:var(--white);
    text-shadow: 0 .5rem 1rem rgba(0,0,0,.7);
@@ -736,7 +737,8 @@ section{
    }
 
    .home .slide .content h3{
-      font-size: 15vw;
+      font-size: 9vw;
+      /* estaba en 15 y lo achique para que se vea mejor en trablets emi */
    }
 
 }
@@ -772,8 +774,8 @@ section{
    .swiper-button-next,
    .swiper-button-prev{
       top:initial;
-      bottom:10rem;
-      /* posicion de las flechas slider en mobil estaba en 1 el bottom:1 ahora 8 emi */
+      bottom:20rem;
+      /* posicion de las flechas slider en mobil estaba en 1 el bottom:1 ahora 20 mas arriba emi */
    }
 
    .menu .slide .box-container .box{
@@ -789,7 +791,8 @@ section{
    }
 
    .home .slide .content h3{
-      font-size: 3rem;
+      font-size: 6rem;
+      /* tambien modifique esto emi */
    }
 
 
