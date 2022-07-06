@@ -40,6 +40,10 @@
    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
 <body>
    
 <!-- header section starts     -->
@@ -79,6 +83,14 @@
 
       <div class="swiper-wrapper">
 
+         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span>Folletos, logos, posters</span>
+               <h3>diseño gráfico</h3>
+               <a href="#about" class="btn">Ver más</a>
+            </div>
+         </div>
+
          <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
             <div class="content">
                <span>Exterior - Interior</span>
@@ -87,13 +99,7 @@
             </div>
          </div>
 
-         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
-            <div class="content">
-               <span>Folletos, logos, posters</span>
-               <h3>diseño gráfico</h3>
-               <a href="#about" class="btn">Ver más</a>
-            </div>
-         </div>
+
 
          <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
             <div class="content">
@@ -876,4 +882,27 @@
 </script>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#fe330a"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "message": "Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.",
+    "dismiss": "Ok!",
+    "link": "Aprender más"
+  }
+});
+</script>
+
+
 </html>
