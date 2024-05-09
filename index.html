@@ -49,6 +49,7 @@
 
    <!-- emi code to allow users to install a shortcut to my website on their mobile devices  -->
    <link rel="manifest" href="/manifest.json">
+   <link rel="manifest" href="manifest.json">
 
 
 
@@ -153,6 +154,32 @@
       <p>Install this web app on your device: tap <img src="images/logoImpactoV192.png" alt="icon"> and then "Add to
          Home Screen".</p>
    </div>
+
+
+
+   <script>
+
+
+
+      window.addEventListener('beforeinstallprompt', function (event) {
+         // Prevent Chrome 67 and earlier from automatically showing the prompt
+         event.preventDefault();
+         // Stash the event so it can be triggered later
+         deferredPrompt = event;
+         // Update UI notify the user they can add to home screen
+         document.getElementById('install-banner').style.display = 'block';
+      });
+
+
+
+   </script>
+
+
+
+
+
+
+
 
    <section class="about" id="about">
       <div class="image">
